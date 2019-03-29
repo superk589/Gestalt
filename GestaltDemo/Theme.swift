@@ -61,7 +61,7 @@ struct ThemeLabelColors {
 struct ThemeTextfieldColors {
     let text: UIColor
     let background: UIColor
-    let borderStyle: UITextBorderStyle = .roundedRect
+    let borderStyle: UITextField.BorderStyle = .roundedRect
 }
 
 struct Theme: ThemeProtocol {

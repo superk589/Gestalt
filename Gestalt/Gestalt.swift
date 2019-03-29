@@ -211,7 +211,7 @@ internal class ThemeableObserver {
             NotificationCenter.default.addObserver(
                 self,
                 selector: #selector(ThemeableObserver.handleDynamicTypeChange(_:)),
-                name: NSNotification.Name.UIContentSizeCategoryDidChange,
+                name: UIContentSizeCategory.didChangeNotification,
                 object: nil
             )
         }
